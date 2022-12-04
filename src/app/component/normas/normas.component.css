@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Sucrose Bold Two';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2') format('woff2');
+    }
+  @font-face {
+    font-family: 'IM Fell French Canon Pro';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/im-fell-french-canon-pro.woff2') format('woff2');
+  }
+  * {
+  box-sizing: border-box;
+  }
+  body {
+  margin: 0;
+  background: -webkit-linear-gradient(90deg, #e7899b 10%, #7f49c7 90%);
+    background:    -moz-linear-gradient(90deg, #e74d6b 10%, #7f49c7 90%);
+    background:     -ms-linear-gradient(90deg, #e74d6b 10%, #7f49c7 90%);
+    background:      -o-linear-gradient(90deg, #e74d6b 10%, #7f49c7 90%);
+    background:         linear-gradient(90deg, #e74d6b 10%, #7f49c7 90%);
+    height: 10 0vh;
+  
+  }
+  header { 
+  background: url(https://i.redd.it/b3esnz5ra34y.jpg) no-repeat;
+  padding-top: 61.93333333%;
+  background-size:contain;
+  font-family: 'Sucrose Bold Two';
+  }
+
+  h3{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+  }
+  h2{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+ 
+  }
+
+  p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+ 
+  }
+
+
+
+  @import"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css";
+@import"https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700";
+body{font-family:'Open Sans Condensed',sans-serif;font-size:18px}
+.backto{background:#039; padding:12px 0; color:rgb(151, 34, 34)}
+.backto a{color:rgb(179, 98, 98); text-decoration:none}
+.cards-row{padding-top:40px; padding-bottom:20px; background:(90deg, #e74d6b 10%, #7f49c7 90%);}
+.thumbnail{padding:0; border-radius:0; border:none; box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)}
+.thumbnail>img{width:100%; display:block}
+.thumbnail h3{font-size:26px}
+.thumbnail h3,.card-description{margin:0; padding:8px 0; border-bottom:solid 1px #eee; text-align:justify}
+.thumbnail p{padding-top:8px; font-size:20px}
+.thumbnail .btn{border-radius:0; box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12); font-size:20px}

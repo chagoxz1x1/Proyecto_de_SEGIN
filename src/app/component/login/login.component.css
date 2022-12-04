@@ -1,0 +1,48 @@
+.container{
+
+    /*
+    background: -webkit-linear-gradient(90deg, #e74d6b 10%, #893AE8 90%);
+      background:    -moz-linear-gradient(90deg, #e74d6b 10%, #893AE8 90%);
+      background:     -ms-linear-gradient(90deg, #e74d6b 10%, #893AE8 90%);
+      background:      -o-linear-gradient(90deg, #e74d6b 10%, #893AE8 90%);
+      background:         linear-gradient(90deg, #e74d6b 10%, #893AE8 90%);
+  */
+    background-image: url(https://mapio.net/images-p/41117810.jpg);
+  
+      width: 31%;
+      height: 34pc;
+      border-radius: 19px;
+      margin-top: 25px;
+  }
+  
+  .container h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  .logo{
+    width: 54%;
+    border-radius: 131px;
+    padding: 10px 10px 10px 10px;
+    margin: -8px 10px -10px 96px;
+  }
+  
+  .boton-inicio{
+    color: white;
+    background: #b553de;
+    margin-left: 156px;
+    border: none;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+  }
+  
+  .registro{
+    color: white;
+    margin-left: 188px;
+  
+  }
+  .form-label{
+    color: white;
+  }
+  

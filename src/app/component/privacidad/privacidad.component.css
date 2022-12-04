@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Sucrose Bold Two';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2') format('woff2');
+    }
+  @font-face {
+    font-family: 'IM Fell French Canon Pro';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/im-fell-french-canon-pro.woff2') format('woff2');
+  }
+  * {
+  box-sizing: border-box;
+  }
+  body {
+  margin: 0;
+  background: -webkit-linear-gradient(90deg, #e7899b 10%, #7f49c7 90%);
+    background:    -moz-linear-gradient(90deg, #e74d6b 10%, #7f49c7 90%);
+    background:     -ms-linear-gradient(90deg, #e74d6b 10%, #7f49c7 90%);
+    background:      -o-linear-gradient(90deg, #e74d6b 10%, #7f49c7 90%);
+    background:         linear-gradient(90deg, #e74d6b 10%, #7f49c7 90%);
+    height: 10 0vh;
+  
+  }
+  header { 
+  background: url(https://i.redd.it/b3esnz5ra34y.jpg) no-repeat;
+  padding-top: 61.93333333%;
+  background-size:contain;
+  font-family: 'Sucrose Bold Two';
+  }
+
+  h3{
+    color: white;
+    font-size: 25px;
+  }
+  h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
